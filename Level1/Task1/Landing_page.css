@@ -1,0 +1,190 @@
+body{
+  background-color: #f1f1f1;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+header{
+  background-color: #fff;
+  height: 25px;
+  padding: 25px;
+  box-shadow:0 0 3px #fbf8f8;
+  padding-bottom: 50px;
+  padding-top: 1px;
+}
+.logo{
+  height: 55px;
+  width: 55px;
+  margin-top: 10px;
+}
+
+.nav2{
+  padding-top: 60px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0px;
+  row-gap: 20px;
+  background-color: rgb(244, 244, 221);
+}
+.div1{
+  text-align:left;
+  font-size: 18px;
+  padding-left: 55px;
+}
+.icons{
+  height: 23px;
+  width: 23px;
+}
+.cake1{
+  height: 450px;
+  width: 400px;
+}
+.div3{
+  position:absolute;
+  bottom: 70px;
+  right: 160px;
+  text-align: left;
+  font-size: 17px;
+}
+.button{
+  background-color: rgb(244, 244, 221);
+  color: black;
+  border-radius: 35px;
+  border-color: black;
+  padding: 12px 20px 12px 55px;
+  margin-top: 10px;
+  color: black;
+}
+
+.nav3{
+  padding-top: 50px;
+  display: grid;
+  height: 500px;
+  grid-template-columns: 1fr 1fr ;
+  column-gap: 0px;
+  row-gap: 20px;
+  background-color:#f1f1f1;
+}
+.div21 {
+  text-align:center;
+  padding-left:30px ;
+  font-size: 21px;
+}
+.sign{
+  height: 120px;
+  width: 120px;
+}
+.girl {
+  height: 450px;
+  width: 400px;
+}
+
+.nav4{
+  height: 940px;
+  background-color:rgb(233, 231, 231) ;
+}
+.div31{
+  height: 100px;
+  font-size: 23px;
+  padding-top: 18px;
+  font-family:Roboto;
+
+}
+.div32{
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 20px;
+      padding-left: 55px;
+      padding-right: 55px;
+}
+.catcake{
+  height: 280px;
+  width: 230px;
+  padding-top: 10px;
+}
+.profile{
+  width: 260px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.nav5{
+  display: grid;
+  height: 670px;
+  background-color:rgb(244, 244, 221) ;
+  grid-template-columns: 1fr 1fr;
+}
+.strawberry{
+  height: 525px;
+  width: 450px;
+  padding-left: 55px;
+  padding-top: 79px;
+}
+.div41{
+  text-align: left;
+  
+}
+.div42{
+  font-size: 30px;
+  padding-top: 70px;
+}
+.div44{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.div43{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    vertical-align: top;
+    margin-right: 15px;
+    background-color: #fff;
+    padding: 0 0 5px 10px;
+    border-radius:16px;
+}
+.nav6 {
+  height: 630px;
+  background-color: rgb(233, 231, 231);
+}
+.div51{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  
+}
+.div52{
+  text-align: justify;
+  padding-left: 55px;
+}
+.div53{
+  font-size: 32px;
+}
+.div54{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.final{
+  height: 500px;
+  width: 500px;
+  margin-top: 35px;
+}
+.inp1{
+  padding: 10px 70px 10px 25px;
+  background-color:rgb(233, 231, 231) ;
+  border: solid;
+}
+.inp2{
+  padding: 10px 70px 130px 25px;
+  background-color: rgb(233, 231, 231);
+  border: solid;
+}
+.button1{
+  background-color: rgb(160, 65, 179);
+  color: white;
+  margin-top: 30px;
+  padding: 10px 30px 15px 10px;
+}
