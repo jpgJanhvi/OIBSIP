@@ -1,19 +1,25 @@
-// add class navbarDark on navbar scroll
-const header = document.querySelector('.navbar');
-console.log(header)
-window.onscroll = function () {
-  const top = window.scrollY;
-  if (top >= 100) {
-    header.classList.add('navbarDark');
+const calculateTemp = () => {
+  const inputTemp = document.getElementById('temp').value;
+
+  const tempSelected = document.getElementById('temp_diff');
+  const valueTemp = temp_diff.options[tempSelected.selectedIndex].value;
+
+  // Celsius to Fahrenheit
+  const celToFah = (cel) => {
+    let fahrenheit = ((cel * 9 / 5) + 32).toFixed(1);
+    return fahrenheit;
+  }
+
+  // Fahrenheit to Celsius
+  const fahToCel = (fah) => {
+    let celsius = ((fah - 32) * 5 / 9).toFixed(1);
+    return celsius;
+  }
+
+  if (valueTemp == 'cel') {
+    document.getElementById("result").innerHTML = celToFah(inputTemp) + "&#176; Fahrenheit";
   }
   else {
-    header.classList.remove('navbarDark');
+    document.getElementById("result").innerHTML = fahToCel(inputTemp) + "&#176; Celsius";
   }
 }
-// collapse navbar after click on small devices
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('navbarSupportedContent')
-
-navLinks.forEach((l) => {
-  l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
-})
